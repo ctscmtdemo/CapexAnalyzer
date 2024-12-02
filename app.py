@@ -18,7 +18,7 @@ st.set_page_config(
 )
  
 # Load the CSV file
-df = pd.read_csv("./data_file/Quarterly_Comparison_Results_with_Company_Names.csv")
+df = pd.read_csv("Quarterly_Comparison_Results_with_Company_Names.csv")
 
 # Replace "Data not available" with "DNA"
 df.replace("Data not available", "DNA", inplace=True)
